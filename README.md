@@ -17,4 +17,4 @@ I have implemented the project as a part of my college assignemnt. The project h
   5. Open the extracted folder in terminal and run following command to generate executable files `$make -f Makefile.forward`.
   6. Now keep the two executables *forward_server* and *forward_client* in separate directories.
   7. Start server by running the command in one terminal `$./forward_sever`.
-  8. Start instance of client to share file with the command `$./forward_client localhost myNewFile.txt`  (localhost is the current location of server and myNewFile.txt is the name of file to be transfered).
+  8. In another terminal start instance of client to share file with the command `$./forward_client localhost myNewFile.txt`  (localhost is the current location of server and myNewFile.txt is the name of file to be transfered).
